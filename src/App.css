@@ -1,0 +1,95 @@
+.app-container {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.sidebar {
+    height: 729px;
+    position: fixed;
+    top: 72px;
+
+}
+
+
+.main-margin {
+    margin-left: 300px;
+    z-index: 1;
+}
+
+.content-margin {
+    margin-top: 90px;
+}
+
+
+
+.post-width {
+    width: 600px;
+
+    margin-bottom: 80px;
+}
+
+.footer-margin {
+    margin-top: 50px;
+}
+
+.post-card {
+    margin-bottom: 20px;
+}
+
+.tags {
+    margin-right: 5px;
+    margin-bottom: 10px;
+    color: #FFC008;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.user-id {
+    margin-bottom: 18px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.welcome-message {
+    margin: 160px 30px 120px 170px;
+}
+
+.loadpost-btn {
+    margin-top: 20px;
+}
+
+.spinner {
+    margin: 15% 0;
+}
+
+a:hover {
+    background-color: rgba(128, 128, 128, 0.564);
+}
+
+.header-ui {
+    margin-left: 110px;
+}
+
+.header-li {
+    margin-right: 30px;
+}
